@@ -122,12 +122,12 @@ const slicedData29 = data.slice(7, 19)
 console.log(slicedData29)
 
 
-// Define the slices based on your tasks
+
 const firstFive = data.slice(0, 5);
 const lastSix = data.slice(-6);
 const taskTwoIndexes = data.slice(3, 6).concat(data.slice(15, 18));
 
-// Combine the results into a single array
+
 const combinedArray = [...firstFive, ...lastSix, ...taskTwoIndexes];
 
 console.log(combinedArray);
